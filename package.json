@@ -1,0 +1,11 @@
+{
+  "name": "unilang",
+  "version": "0.0.1",
+  "description": "Unilang prototype with dictionary + grammar",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node compiler/cli.js src/index.uni dist/index.html"
+  },
+  "license": "MIT"
+}
